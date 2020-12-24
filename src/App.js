@@ -14,6 +14,7 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className="container">
+        <div> these is CI/CD</div>
         <Balance />
         <IncomeExpenses />
         <TransactionList />
