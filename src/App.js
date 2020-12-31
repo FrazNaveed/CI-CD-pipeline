@@ -12,9 +12,9 @@ import './App.css';
 function App() {
   return (
     <GlobalProvider>
+      <h1>This is CI/CD using Github actions</h1>
       <Header />
       <div className="container">
-        <div> these is CI/CD</div>
         <Balance />
         <IncomeExpenses />
         <TransactionList />
